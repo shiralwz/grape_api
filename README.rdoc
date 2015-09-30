@@ -26,3 +26,9 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+rails s
+
+http://localhost:3000/apis/hello.json?name=mike
+
+如果不需要apis这个命名空间可以直接删除 app/model/hello_api.rb里的第五行 resource :apis do 和第十五行 end
+
